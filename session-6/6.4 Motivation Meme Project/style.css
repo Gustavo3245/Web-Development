@@ -1,0 +1,23 @@
+#h1-div{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+#paragrafh-div{
+  color: aliceblue;
+}
+#image-div{
+  border: solid aliceblue;
+}
+.div-master{
+  background-color: black;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
