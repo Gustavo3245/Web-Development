@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+  --global-paragrafh-font: "Old Standard tt", serif; 
+  --global-header-font: "Josefin Sans", sans-serif;
+  --primary-color: #F0D1A5;
+  --secondary-color: #EAC799;
+}
+h1{
+  font-family: var(--global-header-font);
+  background-color: var(--secondary-color);
+}
