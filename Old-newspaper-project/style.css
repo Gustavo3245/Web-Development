@@ -7,7 +7,39 @@
   --primary-color: #F0D1A5;
   --secondary-color: #EAC799;
 }
-h1{
-  font-family: var(--global-header-font);
-  background-color: var(--secondary-color);
+html{
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
+
+.main-topic{
+  width: 1200px;
+  height: 20vh;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 9px;
+  margin-top: 60px;
+}
+.main-image{
+  grid-row-start: span 2;
+}
+.informational-section{
+  grid-column-start: span 3;
+}
+.primary-paragrafh, .secondary-paragrafh{
+  font-family: var(--global-header-font);
+  font-size: 24px;
+}
+
+
+.primary-topic{
+  width: 1200px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
